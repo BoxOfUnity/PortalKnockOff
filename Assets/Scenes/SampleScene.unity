@@ -1432,7 +1432,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a3f7462b1d8ddb4c84ff2b3cc6bfc81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gravApplied: 1
+  gravApplied: 0
 --- !u!114 &821804027
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1481,9 +1481,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98597a2c624001144b89cae4f5189680, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  overrideMovableCheck: 0
   player: {fileID: 821804020}
   maxInteractDistance: 1.5
-  pickupSpeed: 0.1
+  pickupSpeed: 0.2
 --- !u!4 &831188993 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3212682172222065037, guid: 70018a6d3063b86489e3c359c684ef67,
